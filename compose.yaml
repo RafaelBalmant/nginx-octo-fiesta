@@ -5,6 +5,8 @@ services:
             - 80:80
             - 8080:8080
             - 9590:9590
+            - 8001:8001
+            - 8002:8002
         volumes:
             - ./nginx:/etc/nginx
             - ./www:/usr/b4tut4/www
